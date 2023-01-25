@@ -17,7 +17,7 @@ jobs:
           lambda publish-layer-version
           --layer-name node_modules
           --compatible-runtimes nodejs12.x nodejs14.x nodejs16.x nodejs18.x
-          --compatible-architectures x86_64
+          --compatible-architectures x86_64 arm64
           --description "Layer contains node_modules"
           --zip-file fileb://release.zip
       env:
