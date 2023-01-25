@@ -9,3 +9,5 @@ It uses a GitHub action to build and deploy the layer.
 3. Set AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY secrets on repository settings
 4. Edit the variable NPM_PACKAGES in the [action specification](.github/workflows/lambda-layer-creator.yml) according to need
 5. As soon as push this change, the workflow will run and deploy the layer to  AWS account
+
+![Screenshot](Screenshot.png)
