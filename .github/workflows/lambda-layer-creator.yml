@@ -15,7 +15,7 @@ jobs:
       with:
         args: >
           lambda publish-layer-version
-          --layer-name node_module_axios_google-translate-api
+          --layer-name node_module_aws-sdk
           --compatible-runtimes nodejs12.x nodejs14.x nodejs16.x nodejs18.x
           --compatible-architectures x86_64 arm64
           --description "Layer contains node_module -> aws-sdk"
