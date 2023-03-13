@@ -1,5 +1,5 @@
 env:
-  NPM_PACKAGES: axios @vitalets/google-translate-api
+  NPM_PACKAGES: aws-sdk
 on:
   push:
     branches: [ main ]
@@ -18,7 +18,7 @@ jobs:
           --layer-name node_module_axios_google-translate-api
           --compatible-runtimes nodejs12.x nodejs14.x nodejs16.x nodejs18.x
           --compatible-architectures x86_64 arm64
-          --description "Layer contains node_module -> axios & @vitalets/google-translate-api"
+          --description "Layer contains node_module -> aws-sdk"
           --zip-file fileb://release.zip
       env:
         AWS_DEFAULT_REGION: "us-east-1"
