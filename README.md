@@ -1,4 +1,4 @@
-# Manage Lambda Layers with NPM Dependencies
+# Lambda Layer Creation by GitHub Actions
 This repository creates [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) with NPM dependencies on the AWS cloud.
 
 It uses a GitHub action to build and deploy the layer.
