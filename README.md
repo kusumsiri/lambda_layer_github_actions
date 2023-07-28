@@ -15,6 +15,6 @@ It contains several steps as follows.
 2. Create IAM user [access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
 3. Set AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY secrets on repository settings
 4. Edit the variable NPM_PACKAGES in the [action specification](.github/workflows/lambda-layer-creator.yml) according to need
-5. As soon as push this change, the workflow will run and deploy the layer to  AWS account
+5. As soon as push this change, the workflow will run and deploy the layer to  AWS
 
 ![Screenshot](Screenshot.png)
