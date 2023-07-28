@@ -1,7 +1,8 @@
 # Lambda Layer Creation by GitHub Actions
+## Introduction
 This repository creates [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) with NPM dependencies on the AWS cloud.
 
-It uses a GitHub action to build and deploy the layer.
+Instead of manually deploying Lambda Layers, this CI/CD pipeline automates the build and deployment process.
 
 ## How to use
 1. Fork this repository
