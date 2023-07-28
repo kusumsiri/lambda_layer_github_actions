@@ -4,6 +4,12 @@ This repository creates [Lambda Layers](https://docs.aws.amazon.com/lambda/lates
 
 Instead of manually deploying Lambda Layers, this CI/CD pipeline automates the build and deployment process.
 
+## Workflow
+The [lambda-layer-creator.yml](https://github.com/kusumsiri/Lambda-Layer-Creator/blob/main/.github/workflows/lambda-layer-creator.yml) file handles the CD process.
+It contains several steps as follows.
+1. `actions/setup-node@v3` set up GitHub Actions workflow with node.js
+2. `TheDoctor0/zip-release@0.4.1` used to create the release zip archive
+3. `giboow/action-aws-cli@v1` AWS CLI GitHub action to push the lambda layer to AWS
 ## How to use
 1. Fork this repository
 2. Create IAM user [access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
