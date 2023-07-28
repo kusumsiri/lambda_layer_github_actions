@@ -3,7 +3,7 @@ env:
 on:
   push:
     branches: [ main ]
-  paths-ignore:
+    paths-ignore:
       - '**/README.md'
   workflow_dispatch:
 jobs:
